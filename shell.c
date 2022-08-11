@@ -6,6 +6,11 @@
 #include <fcntl.h>
 #include <sys/wait.h>
 
+/**
+ * main - executes commands from the terminal
+ *
+ * Return: 0, or another number if desired
+ */
 int main(void)
 {
 	int status;
@@ -21,7 +26,6 @@ int main(void)
 		perror("malloc failed\n");
 		exit(EXIT_FAILURE);
 	}
-
 	while (1)
 	{
 		write(STDOUT_FILENO, "#cisfun$ ", 9);
@@ -49,6 +53,5 @@ int main(void)
 		wait(&status);
 	}
 	free(buf);
-
-	return(0);
+return (0);
 }
