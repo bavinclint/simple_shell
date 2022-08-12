@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "function handler file"
+git commit -m "Correcting errors"
 git push
