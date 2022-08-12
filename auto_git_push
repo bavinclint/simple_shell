@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "test file update"
+git commit -m "realize token"
 git push
