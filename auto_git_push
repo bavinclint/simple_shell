@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "file updates and corrections"
+git commit -m "functions creation"
 git push
