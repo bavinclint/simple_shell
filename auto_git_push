@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "path handling"
+git commit -m "file executor"
 git push
