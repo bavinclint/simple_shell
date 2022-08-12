@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "realize token"
+git commit -m "path finder"
 git push
