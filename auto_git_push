@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Correcting errors"
+git commit -m "singnal handler"
 git push
